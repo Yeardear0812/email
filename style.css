@@ -6,16 +6,7 @@
 body{
     font-family: Arial;
 }
-table{
-    border: 0;
 
-}
-tr{
-    border: 0;
-}
-td{
-    border: 0;
-}
 
 .side {
     width: 20%;
@@ -40,6 +31,10 @@ td{
 
 .phone {
     text-align: right;
+}
+.phone-wrapper{
+    padding: 0 0 6px 0;
+
 }
 .phone p{
     font-size: 13px;
@@ -81,10 +76,13 @@ td{
     font-weight: bold;
 }
 .about p{
-    min-width: 540px;
+
     font-size: 14px;
     line-height: 24px;
     color: #666666;
+}
+.padding{
+    padding-bottom:20px ;
 }
 .btn {
     min-width: 180px;
@@ -96,6 +94,9 @@ td{
     color: #ffffff;
     font-weight: bold;
     text-align: center;
+    text-decoration: none;
+    padding: 12px 50px;
+    
 }
 
 .block tr{
@@ -122,11 +123,24 @@ td{
     color: #666666;
     text-align: center;
 }
+.project-img1 img ,.project-img2 img,.project-img3 img{
+    width: 100%;
+}
+.project-img1  ,.project-img2 ,.project-img3 {
+    width: 50%;
+    padding: 25px 0;
+}
+.project-img1 ,.project-img3{
+    padding-left: 30px;
+}
+.project-img2{
+    padding-right: 30px;
+}
 .projects {
     width: 100%;
 }
-.mainhouse{
-    padding: 25px 30px;
+.project-text{
+    padding: 25px;
 }
 .project-text h2{
     font-size: 16px;
@@ -173,6 +187,7 @@ td{
     font-weight: bold;
     font-family: "Arial";
     text-align: center;
+    padding-bottom: 12px;
 }
 .botom p{
     min-width:  540px;
@@ -181,10 +196,9 @@ td{
     color: #ffffff;
     font-family: "Arial";
     text-align: center;
+
 }
 .botom a{
-    width: 170px;
-    height: 40px;
     border-radius: 20px;
     background-color: #1f1f56;
     font-size: 14px;
@@ -194,5 +208,11 @@ td{
     font-family: "Arial";
     text-align: center;
     padding: 12px 23px;
+    text-decoration: none;
 }
 
+.line {
+    border: none;
+    height: 1px;
+    background-color: #e4e4ec;
+}
