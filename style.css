@@ -5,6 +5,7 @@
 }
 body{
     font-family: Arial;
+    background-color:#ffffff ;
 }
 table{
     border-collapse:collapse;
@@ -37,6 +38,14 @@ table{
 .phone-wrapper{
     padding: 0 0 6px 0;
 
+}
+.phone-wrapper a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
 }
 .phone p{
     font-size: 13px;
@@ -117,10 +126,12 @@ table{
     font-weight: bold;
     text-align: center;
     padding-bottom: 9px;
+ 
 }
 .block-icon p{
     min-width: 166px;
     font-size: 13px;
+    min-height: 60px;
     line-height: 18px;
     color: #666666;
     text-align: center;
@@ -144,11 +155,13 @@ table{
 .project-text{
     padding: 25px;
 }
-.project-text h2{
+.project-text h2 a{
     font-size: 16px;
     line-height: 24px;
     color: #1f1f56;
     font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
 }
 .project-text p{
     min-width: 260px;
@@ -156,6 +169,7 @@ table{
     line-height: 19px;
     color: #9999a6;
     padding-bottom: 13px;
+    padding-top: 20px;
 }
 .project-text2{
     min-width: 220px;
@@ -175,7 +189,7 @@ table{
 
 
 .botom{
-    background-image: url();
+    background-image: url('https://raw.githubusercontent.com/Yeardear0812/email/refs/heads/main/img/container.png');
     text-align: center;
     width: 100%;
 }
