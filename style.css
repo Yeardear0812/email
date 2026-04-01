@@ -116,7 +116,7 @@ table{
 .block td {
     text-align: center;
     padding: 20px;
-    background: #f5f5f5;
+    background-color: #ededf5;
     min-width: 218px;
 }
 .block-icon h2{
@@ -265,4 +265,10 @@ table{
 }
 .k{
     width: 100%;
+}
+.grey{
+    background-color: #dcdce5;
+}
+.white{
+    background-color: #f5f5f5;
 }
